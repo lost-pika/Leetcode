@@ -21,11 +21,11 @@ public:
                 }
                 // nums2 and nums2
                 else if (left >= m) {
-                    swapIfGreater(nums1, nums2, left - m, right - m);
+                    swapIfGreater(nums2, nums2, left - m, right - m);
                 }
                 // nums1 and nums1
                 else {
-                    swapIfGreater(nums1, nums2, left, right);
+                    swapIfGreater(nums1, nums1, left, right);
                 }
                 left++;
                 right++;
