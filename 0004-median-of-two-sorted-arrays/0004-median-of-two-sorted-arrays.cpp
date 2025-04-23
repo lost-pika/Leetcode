@@ -17,12 +17,12 @@ public:
                 if (cnt == ind1)
                     ind1el = nums1[i];
                 if (cnt == ind2)
-                    ind2el = nums2[j];
+                    ind2el = nums1[i];
                 cnt++;
                 i++;
             } else {
                 if (cnt == ind1)
-                    ind1el = nums1[i];
+                    ind1el = nums2[j];
                 if (cnt == ind2)
                     ind2el = nums2[j];
                 cnt++;
