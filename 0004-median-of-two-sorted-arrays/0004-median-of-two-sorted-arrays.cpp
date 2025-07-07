@@ -4,7 +4,7 @@ public:
         int n1 = nums1.size();
         int n2 = nums2.size();
         if (n1 > n2)
-            findMedianSortedArrays(nums2, nums1);
+            return findMedianSortedArrays(nums2, nums1);
         int n = n1 + n2;
         int left = (n1 + n2 + 1) / 2;
         int low = 0;
